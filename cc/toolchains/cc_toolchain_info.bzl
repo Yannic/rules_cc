@@ -20,6 +20,10 @@
 visibility([
     "//cc/toolchains/...",
     "//tests/rule_based_toolchain/...",
+
+    # Added by EngFlow for migration.
+    "@@//lang/...",
+    "@@//platforms/...",
 ])
 
 # Note that throughout this file, we never use a list. This is because mutable
